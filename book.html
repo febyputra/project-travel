@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Pesanan</title>
+   <title>Book</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -26,11 +26,11 @@
    <a href="home.html" class="logo">Bali Way Travel</a>
 
    <nav class="navbar">
-      <a href="home.html">Beranda</a>
-      <a href="menu.html">Wisata</a>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Travel</a>
       <!-- <a href="about.html">Perjalanan</a> -->
-      <a href="package.html">Paket</a>
-      <a href="book.html">Pesan</a>
+      <a href="package.html">Package</a>
+      <a href="book.html">Book</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -39,45 +39,45 @@
 
 <!-- Mulai Heading -->
 <div class="heading" style="background:url(image/gambar\ 11.jpg) no-repeat">
-   <h1>JAKARTA</h1>
+   <!-- <h1>JAKARTA</h1> -->
 </div>
 
 <!-- Mulai Pesanan  -->
 
 <section class="booking">
 
-   <h1 class="heading-title">CEPAT PESAN SEKARANG!</h1>
+   <h1 class="heading-title">BOOK NOW!</h1>
 
    <form action="" method="post" class="book-form">
 
       <div class="flex">
          <div class="inputBox">
-            <span>Nama:</span>
-            <input type="text" placeholder="Masukan  Nama Anda" name="name">
+            <span>Name:</span>
+            <input type="text" placeholder="Input Your Name" name="name" id="name">
          </div>
          <div class="inputBox">
             <span>Email :</span>
-            <input type="email" placeholder="Masukan Email Anda" name="email">
+            <input type="email" placeholder="Input Your Email" name="email" id="email">
          </div>
          <div class="inputBox">
             <span>Handphone :</span>
-            <input type="number" placeholder="Masukan Nomor Anda" name="phone">
+            <input type="number" placeholder="Input Your Number" name="phone" id="phone">
          </div>
          <div class="inputBox">
-            <span>Alamat:</span>
-            <input type="text" placeholder="Masukan Alamat Anda" name="address">
+            <span>Address:</span>
+            <input type="text" placeholder="Input Your Address" name="address" id="address">
          </div>
          <div class="inputBox">
-            <span>Tujuan:</span>
-            <input type="text" placeholder="Masukan Tujuan Anda" name="location">
+            <span>Destination:</span>
+            <input type="text" placeholder="Input Your Destination" name="location" id="location">
          </div>
          <div class="inputBox">
-            <span>Berapa Orang:</span>
-            <input type="number" placeholder="Jumlah Orang" name="guests">
+            <span>Person:</span>
+            <input type="number" placeholder="Number of People" name="guests" id="guests">
          </div>
          <div class="inputBox">
-            <span>Perjalanan :</span>
-            <input type="date" name="arrivals">
+            <span>Date :</span>
+            <input type="date" name="arrivals" id="date">
          </div>
          <!-- <div class="inputBox">
             <span>Kembali:</span>
@@ -85,7 +85,7 @@
          </div> -->
       </div>
 
-      <input type="submit" value="Kirim" class="btn" name="send">
+      <input type="button" value="Send" class="btn" onclick="whatsapp();">
 
    </form>
 
@@ -116,16 +116,16 @@
    <div class="box-container">
 
       <div class="box">
-         <h3> Link Utama</h3>
-         <a href="home.html"> <i class="fas fa-angle-right"></i>Beranda</a>
-         <a href="menu.html"> <i class="fas fa-angle-right"></i> Wisata</a>
+         <h3> Main Link</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i>Home</a>
+         <a href="menu.html"> <i class="fas fa-angle-right"></i> Travel</a>
          <!-- <a href="about.html"> <i class="fas fa-angle-right"></i> Perjalanan</a> -->
-         <a href="package.html"> <i class="fas fa-angle-right"></i> Paket</a>
-         <a href="book.html"> <i class="fas fa-angle-right"></i> Pesan</a>
+         <a href="package.html"> <i class="fas fa-angle-right"></i> Package</a>
+         <a href="book.html"> <i class="fas fa-angle-right"></i> Book</a>
       </div>
 
       <div class="box">
-         <h3>Link Tambahan</h3>
+         <h3>Additional Link</h3>
          <a href="#"> <i class="fas fa-angle-right"></i> Feedback</a>
          <a href="#"> <i class="fas fa-angle-right"></i> About Us</a>
          <a href="#"> <i class="fas fa-angle-right"></i> Privacy Policy</a>
@@ -134,15 +134,15 @@
       </div>
 
       <div class="box">
-         <h3> Info Kontak</h3>
+         <h3> Contact Info</h3>
          <a href="#"> <i class="fas fa-phone"></i> +628111112221 </a>
          <a href="#"> <i class="fas fa-phone"></i> +628511111333</a>
          <a href="#"> <i class="fas fa-envelope"></i> murahsenyum@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i> Solo, Indonesia </a>
+         <a href="#"> <i class="fas fa-map"></i> Bali, Indonesia </a>
       </div>
 
       <div class="box">
-         <h3>Follow Semua</h3>
+         <h3>Follow Us</h3>
          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
@@ -151,7 +151,7 @@
 
    </div>
 
-   <div class="credit"> Copyright <span>Murah Senyum Coding</span> 2022 </div>
+   <div class="credit"> Copyright <span>Bali Way Travel</span> 2022 </div>
 
 </section>
 

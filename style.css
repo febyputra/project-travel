@@ -526,8 +526,8 @@ section {
 }
 
 .booking .book-form .flex .inputBox input:focus {
-      background: var(--black);
-      color: var(--white);
+      background: var(--white);
+      color: var(--black);
 }
 
 .booking .book-form .flex .inputBox input:focus::placeholder {
