@@ -445,11 +445,16 @@ section {
       gap: 2rem;
 }
 
+.packages .box-container .title-region {
+      padding-top: 20px;
+      text-align: center;
+}
+
 .packages .box-container .box {
       border: var(--border);
       box-shadow: var(--box-shadow);
       background: var(--white);
-      display: none;
+      margin-top: 30px;
 }
 
 .packages .box-container .box:nth-child(1),
